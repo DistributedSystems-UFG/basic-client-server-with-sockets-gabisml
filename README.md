@@ -8,3 +8,28 @@ Este template corresponde ao exemplo da Fig. 2.3 do livro. O exercício consiste
 Tarefa individual.
 
 Incluir um Readme descritivo do sistema implementado.
+
+
+--- Descrição ---
+
+Este projeto implementa um sistema cliente-servidor utilizando sockets em Python.
+O servidor funciona como uma calculadora remota, recebendo operações matemáticas enviadas pelo cliente e retornando os resultados.
+ 
+--- Funcionalidades ---
+
+O sistema suporta as seguintes operações:
+
+Soma
+Subtração
+Multiplicação
+
+O cliente pode enviar uma ou mais operações por requisição.
+
+Iniciar o servidor:
+```bash
+python servidor.py
+```
+Iniciar o cliente:
+```bash
+ python cliente.py
+```
